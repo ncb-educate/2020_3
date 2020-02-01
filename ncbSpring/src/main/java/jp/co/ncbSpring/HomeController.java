@@ -1,4 +1,4 @@
-package jp.co.ncbStudy;
+package jp.co.ncbSpring;
 
 import java.text.DateFormat;
 import java.util.Date;
