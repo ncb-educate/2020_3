@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>NCB Login</title>
+	<title>NCBLogin</title>
 </head>
 <body bgcolor = "#4472C4" style="align:center;">
 	<center>
