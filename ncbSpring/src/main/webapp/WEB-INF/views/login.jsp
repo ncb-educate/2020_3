@@ -26,7 +26,7 @@
 				</td>
 			</tr>
 			<tr>
-				<td style="float:right;"><br><a href="">会員登録</a></td>
+				<td style="float:right;"><br><a href="signup">会員登録</a></td>
 			</tr>
 		</table>
 	</form>

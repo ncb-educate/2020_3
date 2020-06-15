@@ -48,7 +48,7 @@
 			<tr>
 				<td style="border:none;" align="center">
 					<input type="button" value="加入">
-					<input type="button" value="戻る" onclick="">
+					<input type="button" value="戻る" onclick="location.href='login'">
 				</td>
 			</tr>
 		</table>
