@@ -57,7 +57,7 @@
 	</style>
 </head>
 <body>
-	<div id="divtop"><h3>お知らせ登録画面</h3></div>
+	<div id="divtop"><h3>お知らせ登録(修正)画面</h3></div>
 	<br>
 	<div id="divcenter">
 		<table>
@@ -74,11 +74,11 @@
 		</table>
 	</div>
 	<div id="divbottom">
-		<form action="/ncbSpring/BOARD004.jsp" method="post">
+		<form action="" method="post">
 			<table>
 				<tr>
-					<td><input type="submit" disabled="disabled" id="input_button"value="修正" onclick=""></td>
-					<td><input type="button" value="キャンセル " id="input_button" onclick=""></td>
+					<td><input type="submit" disabled="disabled" value="修正" onclick="" id="input_button"></td>
+					<td><input type="button" value="キャンセル " onclick="" id="input_button"></td>
 				</tr>
 			</table>
 		</form> 

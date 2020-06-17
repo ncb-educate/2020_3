@@ -31,7 +31,7 @@
 <body>
 	<center>
 		<div>
-		<form action="/ncbSpring/BOARD002" method="post">
+		<form action="/ncbSpring/BOARD002.jsp" method="post">
 			<table>
 				<tr>
 					<td colspan="2" style="text-align:left;">
