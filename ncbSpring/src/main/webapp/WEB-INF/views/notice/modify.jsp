@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Notice</title>
+<title>NoticeModify</title>
 </head>
 <body>
 	<table style="width:90%; padding:3px;" border="1" bgcolor="#5882FA">

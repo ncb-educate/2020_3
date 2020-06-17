@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Notice</title>
+<title>NoticeWrite</title>
 </head>
 <body>
 	<table style="width:90%; padding:3px;" border="1" bgcolor="#5882FA">
@@ -18,7 +18,7 @@
 		<tr>
 			<td style="border:none; padding:5px;" colspan="2" align="right">
 				<input type="button" value="修正">
-				<input type="button" value="キャンセル">
+				<input type="button" value="キャンセル" onclick="location.href='list'">
 			</td>
 		</tr>
     </table>

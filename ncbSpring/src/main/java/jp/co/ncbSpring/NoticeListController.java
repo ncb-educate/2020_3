@@ -4,9 +4,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class NoticeWriteController {
-	@RequestMapping(value = "/notice/write")
-	public String noticeWrite() {
-		return "notice/write";
+public class NoticeListController {
+	@RequestMapping(value = "/notice/list")
+	public String noticeList() {
+		return "notice/list";
 	}
 }
