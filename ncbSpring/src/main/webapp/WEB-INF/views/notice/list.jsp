@@ -45,11 +45,10 @@
         vertical-align:baseline;
 }    
 
-    #ulTable > li > ul > li:first-child               {width:10%;}
+    #ulTable > li > ul > li:first-child               {width:15%;}
     #ulTable > li > ul > li:first-child +li           {width:45%;}
-    #ulTable > li > ul > li:first-child +li+li        {width:15%;}
-    #ulTable > li > ul > li:first-child +li+li+li     {width:15%;}
-    #ulTable > li > ul > li:first-child +li+li+li+li  {width:15%;}
+    #ulTable > li > ul > li:first-child +li+li        {width:20%;}
+    #ulTable > li > ul > li:first-child +li+li+li     {width:20%;}
     </style>
     
 </head>
@@ -66,10 +65,9 @@
                     <li>
                         <ul>
                             <li>No</li>
-                            <li>제목</li>
-                            <li>작성일</li>
-                            <li>작성자</li>
-                            <li>조회수</li>
+                            <li>タイトル</li>
+                            <li>作成者</li>
+                            <li>作成日</li>
                         </ul>
                     </li>
                     
@@ -77,7 +75,6 @@
                         <ul>
                             <li></li>
                             <li class="left"></li>
-                            <li></li>
                             <li></li>
                             <li></li>
                         </ul>
