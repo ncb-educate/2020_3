@@ -5,38 +5,90 @@
 <head>
 <meta charset="UTF-8">
 <title>NoticeList</title>
+
+<style type="text/css">
+    ul, li{ 
+        list-style:none;
+        text-align:center;
+        padding:0;
+        margin:0;
+}
+
+    #mainWrapper > ul > li:first-child {
+        text-align: center;
+        font-size:14pt;
+        height:40px;
+        vertical-align:middle;
+        line-height:30px;
+}
+    #ulTable {
+    	width: 90%;
+    	background-color:#5882FA;
+    	}
+
+    #ulTable > li:first-child > ul > li {
+        background-color:#c9c9c9;
+        font-weight:bold;
+        text-align:center;
+}
+
+    #ulTable > li > ul {
+        clear:both;
+        padding:0px auto;
+        position:relative;
+        min-width:40px;
+}
+    #ulTable > li > ul > li { 
+        float:left;
+        font-size:10pt;
+        border-bottom:1px solid silver;
+        vertical-align:baseline;
+}    
+
+    #ulTable > li > ul > li:first-child               {width:10%;}
+    #ulTable > li > ul > li:first-child +li           {width:45%;}
+    #ulTable > li > ul > li:first-child +li+li        {width:15%;}
+    #ulTable > li > ul > li:first-child +li+li+li     {width:15%;}
+    #ulTable > li > ul > li:first-child +li+li+li+li  {width:15%;}
+    </style>
+    
 </head>
 <body>
-	<table style="width: 90%; padding: 3px; border-bottom:none;" border="1" bgcolor="#5882FA">
+	<table style="width: 90%; padding: 3px; border:none;" border="1" bgcolor="#5882FA">
 	<tr>
 		<th bgcolor="#A9E2F3"><div style="padding: 20px; float: left;">NCB</div>
 		<h5 style="padding: 10px; float: right;">様</h5></th>
 	</tr>
 	</table>
-	<table style="width: 90%; padding: 3px; border-top:none;" border="1" bgcolor="#5882FA">
-		<thead>
+	<table style="width: 90%; padding: 3px; border:none;" border="1" bgcolor="#5882FA">
 			<tr>
-				<th bgcolor="#E6E6E6">NO</th>
-				<th bgcolor="#E6E6E6">タイトル</th>
-				<th bgcolor="#E6E6E6">作成者</th>
-				<th bgcolor="#E6E6E6">作成日</th>
+				<ul id ="ulTable">
+                    <li>
+                        <ul>
+                            <li>No</li>
+                            <li>제목</li>
+                            <li>작성일</li>
+                            <li>작성자</li>
+                            <li>조회수</li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <ul>
+                            <li></li>
+                            <li class="left"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>                                    
+                </ul>
 			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td bgcolor="#F2F2F2"></td>
-				<td bgcolor="#F2F2F2"></td>
-				<td bgcolor="#F2F2F2"></td>
-				<td bgcolor="#F2F2F2"></td>
-			</tr>
-		</tbody>
-		<tbody>
 			<tr>
 				<td style="border: none; padding: 5px;" colspan="4" align="right">
 					<input type="button" value="新規作成 " onclick="location.href='write'">
 				</td>
 			</tr>
-		</tbody>
 	</table>
 </body>
 </html>
