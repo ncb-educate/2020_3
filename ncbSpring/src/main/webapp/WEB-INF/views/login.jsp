@@ -7,17 +7,17 @@
 <title>Login</title>
 </head>
 <body>
-	<h3>Nuvo<br>Cyber<br>Business</h3>
+	<div style="padding:5px;"><b>N</b>uvo<br><b>C</b>yber<br><b>B</b>usiness</div>
 	<form action="" method="post">
 		<table border="0" width="150" height="60">
 			<tr bgcolor="gray">
-				<td><input type="text" name="userID" size="26" placeholder="ユーザーID"></td>
+				<td><input type="text" name="userID" size="27" placeholder="ユーザーID" maxlength="45"></td>
 			</tr>
 			<tr bgcolor="gray">
-				<td><input type="password" name="password" size="27" placeholder="パスワード"></td>
+				<td><input type="password" name="password" size="27" placeholder="パスワード" maxlength="45"></td>
 			</tr>
 			<tr>
-				<td><input type="checkbox"> ログインユーザー保存する</td>
+				<td><p style="font-size:small;"><input type="checkbox">ログインユーザー保存する</p></td>
 			</tr>
 			<tr>
 				<td colspan="2" align="center">
