@@ -55,4 +55,10 @@ public class HomeController {
 		public String board4() {
 			return "BOARD004";
 		}
+		
+		//BOARD001.jsp
+		@RequestMapping(value = "/BOARD001")
+		public String board1() {
+					return "BOARD001";
+		}
 }
