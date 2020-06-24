@@ -13,37 +13,37 @@
 				<td style="border:none;">ID</td>
 			</tr>
 			<tr>
-				<td style="border:none;"><input type="text" name="userId" size="50"></td>
+				<td style="border:none;"><input type="text" name="userId" size="50"  maxlength="20"></td>
 			</tr>
 			<tr>
 				<td style="border:none;">PASSWORD</td>
 			</tr>
 			<tr>
-				<td style="border:none;"><input type="password" name="password" size="50"></td>
+				<td style="border:none;"><input type="password" name="password" size="50" maxlength="45"></td>
 			</tr>
 			<tr>
 				<td style="border:none;">PASSWORD確認</td>
 			</tr>
 			<tr>
-				<td style="border:none;"><input type="password" name="chk_password" size="50"></td>
+				<td style="border:none;"><input type="password" name="chk_password" size="50" maxlength="45"></td>
 			</tr>
 			<tr>
 				<td style="border:none;">名前</td>
 			</tr>
 			<tr>
-				<td style="border:none;"><input type="text" name="userName" size="50"></td>
+				<td style="border:none;"><input type="text" name="userName" size="50" maxlength="10"></td>
 			</tr>
 			<tr>
 				<td style="border:none;">電話番号</td>
 			</tr>
 			<tr>
-				<td style="border:none;"><input type="text" name="telNum" size="50"></td>
+				<td style="border:none;"><input type="text" name="telNum" size="50" maxlength="11"></td>
 			</tr>
 			<tr>
 				<td style="border:none;">メール</td>
 			</tr>
 			<tr>
-				<td style="border:none;"><input type="text" name="mail" size="50"></td>
+				<td style="border:none;"><input type="text" name="mail" size="50" maxlength="30"></td>
 			</tr>
 			<tr>
 				<td style="border:none;" align="center">

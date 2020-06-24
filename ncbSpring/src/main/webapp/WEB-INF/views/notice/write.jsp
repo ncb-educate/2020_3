@@ -11,8 +11,8 @@
 		<th bgcolor="#A9E2F3"><div style="padding:10px; float:left;">お知らせ登録画面</div></th>
 		<tr>
 			<td style="padding:10px;" bgcolor="#F2F2F2">
-				<div style="padding:5px;">タイトル <input type="text" style="width:90%;" name="title" placeholder="タイトルを入力してください。"></div>
-				<div style="padding:5px;">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <textarea style="width:90%;" rows="10" name="content" placeholder="内容を入力してください。"></textarea></div>
+				<div style="padding:5px;">タイトル <input type="text" style="width:90%;" name="title" placeholder="タイトルを入力してください。" maxlength="50"></div>
+				<div style="padding:5px;">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <textarea style="width:90%; resize:none;" rows="10" name="content" placeholder="内容を入力してください。" maxlength="500"></textarea></div>
 			</td>
 		</tr>
 		<tr>

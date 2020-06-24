@@ -19,6 +19,7 @@ ul, li {
 	text-align: center;
 	padding: 1px;
 	margin: 0px;
+	line-height: 3em;
 	
 }
 
@@ -28,12 +29,11 @@ ul, li {
 
 #ulTable>li:first-child>ul>li {
 	background-color: #c9c9c9;
-	text-align: center;
 }
 
 #ulTable>li>ul {
 	padding: 0px auto;
-	min-width: 40px;
+	min-width: 400px;
 }
 
 #ulTable>li>ul>li {
@@ -58,6 +58,9 @@ ul, li {
 #ulTable>li>ul>li:first-child+li+li+li {
 	width: 20%;
 }
+.left {
+        text-align : left;
+}
 </style>
 
 </head>
@@ -66,7 +69,7 @@ ul, li {
 	<table>
 		<tr>
 			<th bgcolor="#A9E2F3"><div style="padding: 20px; float: left;">NCB</div>
-				<h5 style="padding: 10px; float: right;">様</h5></th>
+				<h5 style="padding: 10px; float: right;">ADMIN 様</h5></th>
 		</tr>
 	</table>
 	<table>
@@ -74,35 +77,27 @@ ul, li {
 			<ul id="ulTable">
 				<li>
 					<ul>
-						<li>No</li>
-						<li>タイトル</li>
-						<li>作成者</li>
-						<li>作成日</li>
+						<li style="text-align: center;">No</li>
+						<li class="left">タイトル</li>
+						<li class="left">作成者</li>
+						<li style="text-align: center;">作成日</li>
 					</ul>
 				</li>
 
 				<li>
 					<ul>
 						<li>1</li>
-						<li class="left">1</li>
-						<li>1</li>
-						<li>1</li>
+						<li class="left">お知らせ</li>
+						<li class="left">ADMIN</li>
+						<li>2020-04</li>
 					</ul>
 				</li>
 				<li>
 					<ul>
-						<li>1</li>
-						<li class="left">1</li>
-						<li>1</li>
-						<li>1</li>
-					</ul>
-				</li>
-				<li>
-					<ul>
-						<li>1</li>
-						<li class="left">1</li>
-						<li>1</li>
-						<li>1</li>
+						<li>2</li>
+						<li class="left">テストタイトル</li>
+						<li class="left">ユーザー１</li>
+						<li>2020-04</li>
 					</ul>
 				</li>
 			</ul>

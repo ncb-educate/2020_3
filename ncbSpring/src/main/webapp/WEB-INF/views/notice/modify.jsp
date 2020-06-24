@@ -8,11 +8,11 @@
 </head>
 <body>
 	<table style="width:90%; padding:3px;" border="1" bgcolor="#5882FA">
-		<th bgcolor="#A9E2F3"><div style="padding:10px; float:left;">お知らせ登録画面</div></th>
+		<th bgcolor="#A9E2F3"><div style="padding:10px; float:left;">お知らせ詳細（修正）画面</div></th>
 		<tr>
 			<td style="padding:10px;" bgcolor="#F2F2F2">
-				<div style="padding:5px;">タイトル <input type="text" style="width:90%;" name="title" input value="" maxlength="50"></div>
-				<div style="padding:5px;">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <textarea style="width:90%; resize:none;" rows="10" name="content" maxlength="500"></textarea></div>
+				<div style="padding:5px;">タイトル <input type="text" style="width:90%;" name="title" input value="既存のタイトル" maxlength="50"></div>
+				<div style="padding:5px;">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <textarea style="width:90%; resize:none;" rows="10" name="content" maxlength="500">既存の内容</textarea></div>
 			</td>
 		</tr>
 		<tr>
