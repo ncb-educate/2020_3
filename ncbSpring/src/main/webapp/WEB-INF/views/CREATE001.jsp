@@ -26,6 +26,22 @@
 	</style>
 </head>
 <body>
+	<script>
+		//レビュー対応
+		function onkeyCheck(obj){
+		   for(var i=0; i< obj.value.length; i++) {
+		   	if (escape(obj.value.charAt(i)).length > 4){
+		
+		  	alert('半角でご入力ください。');
+		
+		
+		  	obj.value = obj.value.substr(0, i);
+		  	obj.focus();
+		   	}
+		   }
+		}
+	</script>
+
 	<center>
 		<div>
 		<form action="" method="post">
@@ -34,19 +50,19 @@
 					<td colspan="2" style="text-align:left;">ID</td>
 				</tr>
 				<tr>
-					<td colspan="2"><input type="text" name="userID" size="30px" maxlength="20"></td>
+					<td colspan="2"><input type="text" name="userID" size="30px" maxlength="20" onkeyup="onkeyCheck(this)"></td>
 				</tr>
 				<tr>
 					<td colspan="2" style="text-align:left;">PASSWORD</td>
 				</tr>
 				<tr>
-					<td colspan="2"><input type="password" name="password" size="30px" maxlength="45"></td>
+					<td colspan="2"><input type="password" name="password" size="30px" maxlength="45" onkeyup="onkeyCheck(this)"></td>
 				</tr>
 				<tr>
 					<td colspan="2" style="text-align:left;">PASSWORD確認</td>
 				</tr>
 				<tr>
-					<td colspan="2"><input type="password" name="chk_password" size="30px" maxlength="45"></td>
+					<td colspan="2"><input type="password" name="chk_password" size="30px" maxlength="45" onkeyup="onkeyCheck(this)"></td>
 				</tr>
 				<tr>
 					<td colspan="2" style="text-align:left;">名前</td>
@@ -58,13 +74,13 @@
 					<td colspan="2" style="text-align:left;">電話番号</td>
 				</tr>
 				<tr>
-					<td colspan="2"><input type="text" name="telNum" size="30px" maxlength="11"></td>
+					<td colspan="2"><input type="text" name="telNum" size="30px" maxlength="11" onkeyup="onkeyCheck(this)"></td>
 				</tr>
 				<tr>
 					<td colspan="2" style="text-align:left;">メール</td>
 				</tr>
 				<tr>
-					<td colspan="2"><input type="text" name="mail" size="30px" maxlength="30"></td>
+					<td colspan="2"><input type="text" name="mail" size="30px" maxlength="30" onkeyup="onkeyCheck(this)"></td>
 				</tr>
 				
 				<tr height="70px">

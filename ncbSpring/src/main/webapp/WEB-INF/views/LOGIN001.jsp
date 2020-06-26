@@ -29,6 +29,22 @@
 	</style>
 </head>
 <body>
+	<script>
+		//レビュー対応
+		function onkeyCheck(obj){
+		   for(var i=0; i< obj.value.length; i++) {
+		   	if (escape(obj.value.charAt(i)).length > 4){
+		
+		  	alert('半角でご入力ください。');
+		
+		
+		  	obj.value = obj.value.substr(0, i);
+		  	obj.focus();
+		   	}
+		   }
+		}
+	</script>
+
 	<center>
 		<div>
 		<form action="/ncbSpring/BOARD002.jsp" method="post">
@@ -39,10 +55,10 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2"><input type="text" name="userID" size="20px" maxlength="45" placeholder="ユーザーID"></td>
+					<td colspan="2"><input type="text" name="userID" size="20px" maxlength="45" placeholder="ユーザーID" onkeyup="onkeyCheck(this)"></td>
 				</tr>
 				<tr>
-					<td colspan="2"><input type="password" name="password" size="20px"  maxlength="45" placeholder="パスワード"></td>
+					<td colspan="2"><input type="password" name="password" size="20px"  maxlength="45" placeholder="パスワード" onkeyup="onkeyCheck(this)"></td>
 				</tr>
 				<tr">
 					<td colspan="2"><input type="checkbox"><font style="font-size:8pt;">ログインユーザー保存する</font></td>
